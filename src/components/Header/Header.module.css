@@ -1,0 +1,55 @@
+.mainNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 5px 20px -5px rgb(0, 0, 0);
+    background-color: #6D6162;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+  
+.navList {
+    list-style: none;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0;
+    display: flex;
+    gap: 18px;
+}
+
+.navList li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.2s ease-in-out;
+}
+
+.navList li a:hover {
+  color: #ffd34e;
+}
+  
+.contactsInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  gap: 10px;
+  color: #fff;
+}
+  
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+}
+  
+.contactsInfo a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.netw {
+  display: flex;
+  gap: 10px;
+}
